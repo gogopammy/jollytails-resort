@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Development safety: replace with production rules only at an approved launch.

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/services", "destination": "/", "permanent": true },
+    { "source": "/home", "destination": "/", "permanent": true },
+    { "source": "/services", "destination": "/", "permanent": true },
+    { "source": "/make-a-reservation", "destination": "/reservations", "permanent": true },
+    { "source": "/join-our-doggy-daycare", "destination": "/daycare/assessment", "permanent": true },
+    { "source": "/dog-daycare", "destination": "/daycare", "permanent": true },
+    { "source": "/request-boarding-form", "destination": "/reservations/boarding/new", "permanent": true },
+    { "source": "/daycare-assessment-form", "destination": "/daycare/assessment", "permanent": true },
+    { "source": "/existing-clients-boarding-book", "destination": "/reservations/boarding/existing", "permanent": true },
+    { "source": "/request-grooming-form", "destination": "/reservations/grooming/new", "permanent": true },
+    { "source": "/existing-clients-book-grooming", "destination": "/reservations/grooming/existing", "permanent": true },
+    { "source": "/new-page-1", "destination": "/dog-training/puppy-classes", "permanent": true },
+    { "source": "/surviving-adolescence", "destination": "/dog-training/surviving-adolescence", "permanent": true },
+    { "source": "/training-sessions", "destination": "/dog-training", "permanent": true },
+    { "source": "/trainingclassschedules", "destination": "/dog-training", "permanent": true },
+    { "source": "/puppy-socials", "destination": "/daycare", "permanent": true },
+    { "source": "/media", "destination": "/social-media", "permanent": true },
+    { "source": "/toy-drive", "destination": "/community/toy-drive", "permanent": true },
+    { "source": "/resort-manager", "destination": "/careers", "permanent": true },
+    { "source": "/store", "destination": "/pet-store", "permanent": true },
+    { "source": "/prices-1", "destination": "/prices", "permanent": true },
+    { "source": "/policies", "destination": "/prices", "permanent": true },
+    { "source": "/contact-us-1", "destination": "/contact", "permanent": true },
+    { "source": "/new-page", "destination": "/about", "permanent": true },
+    { "source": "/photo-gallery", "destination": "/gallery", "permanent": true },
+    { "source": "/our-team", "destination": "/team", "permanent": true },
+    { "source": "/discounts", "destination": "/prices#discounts", "permanent": true },
+    { "source": "/special-announcements", "destination": "/", "permanent": true },
+    { "source": "/partners-bedford", "destination": "/", "permanent": true },
+    { "source": "/home-alt-bedford", "destination": "/", "permanent": true },
+    { "source": "/what-we-do-bedford", "destination": "/", "permanent": true },
+    { "source": "/projects-bedford", "destination": "/", "permanent": true }
+  ],
+  "headers": [{
+    "source": "/(.*)",
+    "headers": [
+      { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" },
+      { "key": "X-Content-Type-Options", "value": "nosniff" },
+      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+      { "key": "X-Frame-Options", "value": "DENY" },
+      { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+    ]
+  }]
+}
