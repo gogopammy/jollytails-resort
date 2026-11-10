@@ -21,7 +21,7 @@ Pamela retains administrative control of the domain, DNS, Vercel, billing, and d
 - [Squarespace website subscription](https://jollytails-resort.squarespace.com/config/settings/billing/subscriptions/website): existing website plan and renewal details.
 - [Vercel dashboard](https://vercel.com/dashboard): open the Resort project, then Settings > Domains for the exact connection records.
 
-The September 28 setup record confirms that a change to Squarespace Basic monthly billing was scheduled for October 10, 2026. Check the current subscription and next renewal date in Squarespace before cancellation; that billing screen has not been rechecked for this reference.
+Pamela confirmed on November 10, 2026 that Squarespace is now subscribed monthly. There is no Squarespace deadline driving the launch. Keep the existing website active until the Vercel launch is verified, then cancel the website subscription when ready.
 
 ## Current public DNS records
 
@@ -41,7 +41,7 @@ Save a complete DNS export immediately before launch. This short snapshot does n
 2. In GoDaddy, update only the website records needed for Vercel, plus any ownership-verification record Vercel requests. Preserve the nameservers and all email records, including MX, SPF, DKIM, DMARC, and autodiscover. Vercel documents the domain connection process in its [custom domain guide](https://vercel.com/docs/domains/working-with-domains/add-a-domain).
 3. Configure one primary address and redirect the other to it. The current website source uses `https://jollytailsresort.ca` in canonical URLs, so the root domain is the natural primary address unless Pamela chooses otherwise.
 4. Verify both addresses reach the new site over HTTPS, Vercel reports valid domain configuration, and Resort email still sends and receives. Keep Squarespace active until the switch is stable. If rollback is needed, restore the saved website DNS records while Squarespace remains active.
-5. After verification, cancel only the Squarespace website subscription before its next renewal. Continue the GoDaddy domain and Microsoft 365 subscriptions. No GoDaddy web-hosting purchase is needed for the Vercel site.
+5. After verification, cancel only the Squarespace website subscription when ready. Monthly billing allows time for a controlled transition. Continue the GoDaddy domain and Microsoft 365 subscriptions. No GoDaddy web-hosting purchase is needed for the Vercel site.
 
 ## Search visibility at launch
 
@@ -49,4 +49,4 @@ The Vercel site currently returns `X-Robots-Tag: noindex, nofollow, noarchive`. 
 
 ## Verification record
 
-The November 10 public DNS and HTTP checks confirmed Squarespace for the current domain, Vercel for the replacement address, and Microsoft 365 mail routing. GitHub confirmed the repository is public. Domain ownership and service responsibilities follow the project guidance; the monthly Squarespace arrangement comes from the September 28 setup record. No domain, hosting, subscription, or email settings were changed while preparing this reference.
+The November 10 public DNS and HTTP checks confirmed Squarespace for the current domain, Vercel for the replacement address, and Microsoft 365 mail routing. GitHub confirmed the repository is public. Domain ownership and service responsibilities follow the project guidance; Pamela confirmed the current monthly Squarespace subscription on November 10. No domain, hosting, subscription, or email settings were changed while preparing this reference.
