@@ -38,6 +38,8 @@ Interior pages are committed as static HTML. Their shared source is `scripts/bui
 
 See [Kevin's website editor setup](docs/KEVIN-WEBSITE-EDITOR-SETUP.md) for the editing and publishing workflow. Pamela has completed the website content review; the old content checklist is obsolete.
 
+See the [hosting and domain launch reference](docs/HOSTING-AND-DOMAIN.md) for the current providers, domain connection, email protection, and hosting transition.
+
 ## Design provenance
 
 The visual system recreates approved corporate conventions: colour tokens, Trebuchet/Arial typography, pill buttons, rounded cards, generous spacing, responsive grids, accessible focus states, skip navigation, mobile navigation, and reduced-motion behaviour. Reservation buttons for existing clients use red; new-client, assessment, and request-to-join buttons use blue.
