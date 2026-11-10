@@ -36,7 +36,7 @@ Then open `http://localhost:8080/`.
 
 Interior pages are committed as static HTML. Their shared source is `scripts/build-interior-pages.mjs`; rerun it with Node after updating page content, then run `scripts/validate-site.mjs` before committing.
 
-See [Kevin's website editor setup](docs/KEVIN-WEBSITE-EDITOR-SETUP.md) for the editing and publishing workflow. Prelaunch review documents and unused image sources are kept outside this repository; Pamela retains the outstanding launch checklist.
+See [Kevin's website editor setup](docs/KEVIN-WEBSITE-EDITOR-SETUP.md) for the editing and publishing workflow. Pamela has completed the website content review; the old content checklist is obsolete.
 
 ## Design provenance
 
