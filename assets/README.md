@@ -18,7 +18,7 @@ Source: `https://www.jollytailsresort.ca/`
 
 ## `squarespace-photos/`
 
-The 21 photographs retained in this directory are used by the website. They were selected from the public Jollytails Resort Squarespace website on September 8, 2026. Unused photographs, selection contact sheets, and the original photo manifest are archived outside the repository.
+The 21 photographs retained in this directory are used by the website. They were selected from the public Jollytails Resort Squarespace website on September 8, 2026.
 
 ## `daycare-dog.webp`
 
